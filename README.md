@@ -116,7 +116,7 @@ The implementation involved:
 The implementation followed the equations available in the research paper. However, some parameters and numerical implementation details were not sufficiently specified. Experimental values were therefore selected for parameters such as the diffusion coefficient, time step, and number of iterations.
 
 The filtering process was applied to all 11,260 images, and all were processed successfully.
-![ADVO Image Filtering](Pictures/advo_test.png)
+![ADVO Image Filtering] (Pictures/advo_test.png)
 
 
 ### 3.2 U-Net for Edge Detection
