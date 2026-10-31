@@ -116,11 +116,15 @@ The implementation involved:
 The implementation followed the equations available in the research paper. However, some parameters and numerical implementation details were not sufficiently specified. Experimental values were therefore selected for parameters such as the diffusion coefficient, time step, and number of iterations.
 
 The filtering process was applied to all 11,260 images, and all were processed successfully.
-![ADVO Image Filtering] (Pictures/advo_test.png)
-
+![ADVO Image Filtering](Pictures/advo_test.png)
+![advo_comparison.png](Pictures/advo_comparison.png)
+![diffusion_coefficient.png](Pictures/diffusion_coefficient.png)
+![gradient.png](Pictures/gradient.png)
+![greyscale.png](Pictures/greyscale.png)
 
 ### 3.2 U-Net for Edge Detection
-
+![filtered_edges.png](Pictures/filtered_edges.png)
+![zoomed_greyscale.png](Pictures/zoomed_greyscale.png)
 The second component used a U-Net architecture for image segmentation and edge detection.
 
 A U-Net model was implemented using an encoder-decoder structure with skip connections. The encoder extracts image features, while the decoder reconstructs spatial information to generate an output map.
