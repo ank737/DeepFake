@@ -51,4 +51,4 @@ print(
 )
 
 print("\nConfusion Matrix:")
-print(confusion_matrix(all_labels, all_predictions))
+print(confusion_matrix(all_labels, all_predictions)) 
